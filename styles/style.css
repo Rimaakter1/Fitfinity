@@ -1,0 +1,79 @@
+/* font style  */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* global styles  */
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: "Inter", sans-serif;
+}
+
+:root {
+    --text-primary-color: rgb(255, 255, 255);
+    --text-secondary-color: rgba(255, 255, 255, 0.5);
+    --font-and-background-color: rgb(230, 83, 60);
+}
+
+
+
+/* common styles  */
+.display-flex {
+    display: flex;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.bg-color {
+    background: linear-gradient(180.00deg, rgb(17, 17, 17), rgba(119, 119, 119, 0) 100%);
+}
+
+
+
+/* header styles  */
+
+/* navbar styles here  */
+
+.navbar {
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 45px;
+}
+
+
+.navbar h3 {
+    color: var(--font-and-background-color);
+    font-size: 2.2rem;
+    font-weight: 800;
+}
+
+.nav-item {
+    list-style: none;
+    margin-left: 45px;
+
+}
+
+.nav-link {
+    text-decoration: none;
+    color: var(--text-primary-color);
+    font-family: Inter;
+    font-size: 1.1rem;
+    font-weight: 400;
+}
+
+#home {
+    padding: 8px 20px;
+    border-radius: 46px;
+    background: rgb(230, 83, 60);
+    font-weight: 600;
+}
+
+
+/* main styles  */
+
+
+/* footer styles  */
