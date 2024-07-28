@@ -459,6 +459,20 @@ select {
 
 /* Prices section styles  */
 
+.price-plan-section {
+    margin-top: 110px;
+}
+
+.price-plan-content {
+    margin-bottom: 40px;
+}
+
+.price-plan-content p {
+    color: var(--text-secondary-color);
+    font-size: 20px;
+    margin-bottom: 16px;
+}
+
 .prices-container {
     grid-template-columns: repeat(3, 1fr);
     gap: 25px;
@@ -467,6 +481,10 @@ select {
 .price-card {
     background: rgba(255, 255, 255, 0.1);
     position: relative;
+}
+
+.price-card:hover {
+    border: 2px solid var(--font-and-background-color);
 }
 
 .price-card img {
@@ -514,13 +532,24 @@ select {
 
 }
 
-.choose-option h6>i {
-    margin-right: 8px;
+#cross-mark {
+    color: red;
 }
 
-.price-card button {
-    margin-bottom: 40px;
+.choose-option h6>i {
+    margin-right: 8px;
+    color: green;
+}
 
+
+.join-btn {
+    border: 2px solid var(--font-and-background-color);
+    background: transparent;
+    margin-bottom: 40px;
+}
+
+.join-btn:hover {
+    background-color: var(--font-and-background-color);
 }
 
 /* footer styles  */
