@@ -1,7 +1,5 @@
 /* font style  */
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
-
-
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Inter:wght@100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
 /* global styles  */
@@ -27,6 +25,10 @@
 /* common styles  */
 .display-flex {
     display: flex;
+}
+
+.display-grid {
+    display: grid;
 }
 
 .container {
@@ -268,7 +270,6 @@
 }
 
 .change-habits-img-container {
-    display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 20px;
 }
@@ -330,12 +331,10 @@
 
 .bmi-calculation-container {
     background: rgb(34, 34, 34);
-    padding: 50px 45px;
+    padding: 50px 0px;
 }
 
 .bmi-calculation-details {
-    width: 85%;
-    margin: 0 auto;
     justify-content: space-between;
 }
 
@@ -386,7 +385,6 @@ td {
 }
 
 .require-info {
-    display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 12px;
 }
@@ -414,10 +412,168 @@ select {
 }
 
 
+/* meet our team styles  */
+.our-team-info {
+    border-radius: 18px;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 25px;
+    margin-top: 58px;
+
+}
+
+.our-team-img-container {
+    grid-template-columns: repeat(3, 1fr);
+    width: 100%;
+    margin: 0 auto;
+    gap: 20px;
+
+}
 
 
+
+.team-image img {
+    border-radius: 18px;
+    width: 100%;
+    height: 100%;
+
+}
+
+.team-image h5 {
+    font-size: 22px;
+    color: var(--text-primary-color);
+    font-weight: 600;
+    margin-top: -77px;
+
+}
+
+.team-image h5,
+.team-image p {
+    margin-left: 20px;
+}
+
+.team-image p {
+    color: var(--text-secondary-color);
+    font-size: 16px;
+}
+
+
+/* Prices section styles  */
+
+.prices-container {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+}
+
+.price-card {
+    background: rgba(255, 255, 255, 0.1);
+    position: relative;
+}
+
+.price-card img {
+    width: 100%;
+}
+
+.price {
+    border-radius: 50%;
+    background: linear-gradient(90deg, rgb(230, 83, 60), rgb(194, 76, 58));
+    width: fit-content;
+    padding: 25px;
+    position: absolute;
+    top: 170px;
+    left: 100px;
+}
+
+.price h1 {
+    font-size: 40px;
+    color: var(--text-primary-color);
+    font-weight: 900;
+}
+
+.price p {
+    font-size: 18px;
+    color: var(--text-primary-color);
+}
+
+.choose-option {
+    margin-bottom: 40px;
+}
+
+
+.choose-option h4 {
+    color: var(--text-primary-color);
+    font-size: 1.4rem;
+    margin-top: 80px;
+    text-align: center;
+}
+
+.choose-option h6 {
+    font-size: 15px;
+    color: rgba(250, 250, 249, 0.815);
+    margin-top: 18px;
+    margin-left: 20px;
+
+}
+
+.choose-option h6>i {
+    margin-right: 8px;
+}
+
+.price-card button {
+    margin-bottom: 40px;
+
+}
 
 /* footer styles  */
+
+footer {
+    background: rgba(255, 255, 255, 0.1);
+    margin-top: 88px;
+    padding-top: 66px;
+}
+
+.footer-container {
+    grid-template-columns: repeat(3, 1fr);
+    border-bottom: 2px solid rgba(255, 255, 255, 0.1);
+
+}
+
+footer h1 {
+    color: var(--font-and-background-color);
+    font-size: 60px;
+    font-weight: 800;
+    margin-bottom: 20px;
+    margin-top: 18px;
+
+}
+
+.footer-details {
+    margin-bottom: 110px;
+    margin-left: 155px;
+}
+
+.footer-details h3 {
+    color: var(--text-primary-color);
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.footer-links {
+    flex-direction: column;
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: var(--text-secondary-color);
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.reserve-right {
+    color: var(--text-secondary-color);
+    font-size: 20px;
+    padding: 34px 0;
+}
 
 
 /* responsive styles  */
