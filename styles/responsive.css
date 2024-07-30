@@ -22,8 +22,7 @@
     .change-habits-img-container,
     .our-team-img-container,
     .footer-container,
-    .prices-container,
-    .require-info {
+    .prices-container {
         grid-template-columns: repeat(1, 1fr);
 
     }
@@ -89,6 +88,32 @@
 
     }
 
+    /* bmi calculation styles  */
+
+    .bmi-calculation-section {
+        margin-bottom: 60px;
+    }
+
+    .bmi-content {
+        margin-bottom: 32px;
+        margin-left: 20px;
+    }
+
+    .bmi-calculation-chart {
+        width: 100%;
+    }
+
+    .bmi-calculation {
+        width: 100%;
+        margin-top: 42px;
+    }
+
+    /* meet our team styles  */
+    .our-team-info {
+        padding: 15px;
+        margin-top: 40px;
+
+    }
 
     /* price plan section  */
 

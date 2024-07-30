@@ -10,7 +10,7 @@
     margin: 0;
     font-family: "Inter", sans-serif;
     font-weight: 400;
-    /* outline: 1px solid red; */
+    outline: 1px solid red;
 
 }
 
@@ -397,7 +397,7 @@ select {
     padding: 12px 40px 12px 20px;
     border: none;
     display: block;
-
+    width: 100%;
 }
 
 ::placeholder,
@@ -436,7 +436,6 @@ select {
     border-radius: 18px;
     width: 100%;
     height: 100%;
-
 }
 
 .team-image h5 {
