@@ -1,0 +1,89 @@
+/* responsive styles  */
+
+@media screen and (max-width:576px) {
+
+    /* common styles  */
+    .section-content {
+        width: 100%;
+    }
+
+
+    .nav-links,
+    .banner-section,
+    .extra-mile-section,
+    .bmi-calculation-details {
+        flex-direction: column;
+    }
+
+    .change-habits-img-container,
+    .our-team-img-container,
+    .footer-container,
+    .prices-container,
+    .require-info {
+        grid-template-columns: repeat(1, 1fr);
+
+    }
+
+    /* navbar  */
+
+    .nav-links {
+        display: none;
+    }
+
+    .menu-bar {
+        display: block;
+        color: var(--text-primary-color);
+        font-size: 30px;
+    }
+
+    /* banner section styles  */
+
+
+    .banner-content,
+    .banner-img-container {
+        width: 100%;
+
+    }
+
+    .banner-section {
+        gap: 50px;
+        margin-top: 20px;
+    }
+
+    .banner-content {
+        margin-top: 50px;
+    }
+
+    .banner-btn-container {
+        display: flex;
+    }
+
+    .workout-video {
+        left: 190px;
+        top: 40px;
+    }
+
+    .tutorial-video {
+
+        left: 0px;
+        top: 238px;
+    }
+
+
+    /* change habit section  */
+
+
+
+    /* extra mile section  */
+
+    .extra-mile-content {
+        width: 100%;
+    }
+
+    .extra-mile-img-container {
+        width: 100%;
+
+    }
+
+
+}

@@ -10,7 +10,7 @@
     margin: 0;
     font-family: "Inter", sans-serif;
     font-weight: 400;
-    /* outline: 1px solid red; */
+    outline: 1px solid red;
 
 }
 
@@ -60,14 +60,14 @@
 
 .section-title {
     color: var(--text-primary-color);
-    font-size: 48px;
+    font-size: 3rem;
     font-weight: 900;
     margin-bottom: 14px;
 }
 
 .description {
     color: var(--text-secondary-color);
-    font-size: 14px;
+    font-size: 0.9rem;
     line-height: 24px;
 }
 
@@ -290,7 +290,6 @@
 /* Run an Extra Mile Easily section styles */
 
 .extra-mile-section {
-    display: flex;
     border-radius: 18px;
     background: rgb(34, 34, 34);
     padding: 30px 32px 30px 44px;
@@ -602,60 +601,4 @@ footer h1 {
     color: var(--text-secondary-color);
     font-size: 20px;
     padding: 34px 0;
-}
-
-
-/* responsive styles  */
-
-@media screen and (max-width:576px) {
-
-    .nav-links,
-    .banner-section {
-        flex-direction: column;
-    }
-
-    /* navbar  */
-
-    .nav-links {
-        display: none;
-    }
-
-    .menu-bar {
-        display: block;
-        color: var(--text-primary-color);
-        font-size: 30px;
-    }
-
-    /* banner section styles  */
-
-    .banner-content,
-    .banner-img-container {
-        width: 100%;
-
-    }
-
-    .banner-section {
-        gap: 50px;
-        margin-top: 20px;
-    }
-
-    .banner-content {
-        margin-top: 50px;
-    }
-
-    .banner-btn-container {
-        display: flex;
-    }
-
-    .workout-video {
-        left: 190px;
-        top: 40px;
-    }
-
-    .tutorial-video {
-
-        left: 0px;
-        top: 238px;
-    }
-
 }
