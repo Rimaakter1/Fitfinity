@@ -3,14 +3,20 @@
 @media screen and (max-width:576px) {
 
     /* common styles  */
-    .section-content {
+    .section-content,
+    .banner-content,
+    .banner-img-container,
+    .extra-mile-content,
+    .run-btn,
+    .extra-mile-img-container,
+    .bmi-calculation-chart,
+    .bmi-calculation {
         width: 100%;
     }
 
     .container {
         width: 90%;
     }
-
 
     .nav-links,
     .banner-section,
@@ -24,7 +30,12 @@
     .footer-container,
     .prices-container {
         grid-template-columns: repeat(1, 1fr);
+    }
 
+    .change-habits-section,
+    .extra-mile-section,
+    .bmi-calculation-section {
+        margin-bottom: 60px;
     }
 
     /* navbar  */
@@ -36,30 +47,36 @@
     .menu-bar {
         display: block;
         color: var(--text-primary-color);
-        font-size: 30px;
+        font-size: 1.9rem;
     }
 
     /* banner section styles  */
 
-
-    .banner-content,
-    .banner-img-container {
-        width: 100%;
-
-    }
-
     .banner-section {
         gap: 50px;
         margin-top: 20px;
+        margin-bottom: 0px;
     }
 
     .banner-content {
         margin-top: 50px;
     }
 
+    .banner-title {
+        font-size: 4.1rem;
+
+    }
+
+    .shape-style {
+        font-size: 6.4rem;
+    }
+
     .banner-btn-container {
         display: flex;
     }
+
+
+
 
     .workout-video {
         left: 190px;
@@ -72,39 +89,25 @@
         top: 238px;
     }
 
-
-    /* change habit section  */
-
-
-
     /* extra mile section  */
 
-    .extra-mile-content {
-        width: 100%;
+    .extra-mile-section {
+        padding: 25px 32px;
     }
 
-    .extra-mile-img-container {
-        width: 100%;
-
+    .extra-mile-content {
+        margin-bottom: 30px;
     }
 
     /* bmi calculation styles  */
-
-    .bmi-calculation-section {
-        margin-bottom: 60px;
-    }
-
     .bmi-content {
-        margin-bottom: 32px;
-        margin-left: 20px;
+        width: 90%;
+        margin: 0 auto 32px auto;
+
     }
 
-    .bmi-calculation-chart {
-        width: 100%;
-    }
 
     .bmi-calculation {
-        width: 100%;
         margin-top: 42px;
     }
 
@@ -130,9 +133,7 @@
     }
 
     .footer-details {
-        margin-bottom: 0;
-        margin-top: 30px;
-        margin-left: 0;
+        margin: 30px 0 0 0;
     }
 
 
