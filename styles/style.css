@@ -298,7 +298,7 @@
 }
 
 .extra-mile-content {
-    width: 36%;
+    width: 42%;
 }
 
 .extra-mile-content h1 {
@@ -625,6 +625,7 @@ select {
 
 .price-card:hover {
     border: 2px solid var(--font-and-background-color);
+
 }
 
 .price-card img {
