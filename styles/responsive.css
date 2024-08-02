@@ -130,6 +130,28 @@
         margin-bottom: 30px;
     }
 
+
+    /* training and exercise styles  */
+    .exercise-img-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .exercise-img-container-1,
+    .exercise-img-container-4 {
+        display: none;
+    }
+
+
+
+    .overlay-2 p,
+    .overlay-3 p,
+    .overlay-5 p,
+    .overlay-6 p {
+
+        font-size: 0.7rem;
+        left: 8px;
+    }
+
     /* bmi calculation styles  */
     .bmi-content {
         width: 90%;
@@ -157,6 +179,7 @@
     }
 
     .price {
+        opacity: 90%;
         border-radius: 0%;
         display: flex;
         align-items: center;
@@ -167,6 +190,7 @@
         position: absolute;
         top: 170px;
         left: 0px;
+
     }
 
     .choose-option h4 {
