@@ -10,7 +10,7 @@
     margin: 0;
     font-family: "Inter", sans-serif;
     font-weight: 400;
-    /* outline: 1px solid red; */
+    outline: 1px solid red;
 }
 
 :root {
@@ -317,8 +317,11 @@
 .extra-mile-img-container img {
     width: 100%;
     height: 100%;
-    object-fit: cover;
-    /* border-radius: 16px; */
+    object-fit: none;
+    object-position: 68% 30%;
+    border-radius: 18px;
+
+
 }
 
 /* Trainings and Exercises styles  */

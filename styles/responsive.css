@@ -38,6 +38,10 @@
         margin-bottom: 60px;
     }
 
+    .section-title {
+        font-size: 2.2rem;
+    }
+
     /* navbar  */
 
     .nav-links {
@@ -130,6 +134,10 @@
         margin-bottom: 30px;
     }
 
+    .extra-mile-img-container img {
+        object-fit: contain;
+        object-position: 0% 0%;
+    }
 
     /* training and exercise styles  */
     .exercise-img-container {
@@ -207,6 +215,119 @@
 
     .footer-details {
         margin: 30px 0 0 0;
+    }
+
+
+}
+
+/* Medium Device: 576px to 992 px  */
+
+@media screen and (min-width:576px) and (max-width:992px) {
+
+
+
+    .banner-section,
+    .bmi-calculation-details {
+        flex-direction: column;
+    }
+
+    .banner-content,
+    .banner-img-container,
+    .section-content,
+    .exercise-content,
+    .bmi-calculation-chart,
+    .bmi-calculation,
+    .bmi-content {
+        width: 100%;
+    }
+
+    .section-title {
+        font-size: 2.5rem;
+    }
+
+    /* navbar  */
+    .container {
+        width: 90%;
+    }
+
+
+    /* banner section  */
+    .banner-section {
+        margin-top: 0px;
+    }
+
+    .workout-video {
+
+        left: 52%;
+        top: 150px;
+    }
+
+    .tutorial-video {
+        left: 20px;
+        top: 550px;
+    }
+
+
+    /* change habit section  */
+    .change-habits-img-container {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+
+    /* run extra miles  */
+
+    .extra-mile-img-container img {
+        object-position: 66% 33%;
+        border-radius: 18px;
+
+
+    }
+
+
+    /* Bmi calculation  */
+
+    .bmi-content {
+        padding-left: 35px;
+    }
+
+    .bmi-title {
+        margin-top: 50px;
+    }
+
+
+    /* prices plan  */
+
+
+    .prices-container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .price {
+        opacity: 90%;
+        border-radius: 0%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 5px;
+        width: 100%;
+        padding: 10px 60px;
+        position: absolute;
+        top: 40%;
+        left: 0px;
+
+    }
+
+
+    /* footer  */
+    .footer-container {
+        grid-template-columns: 1fr;
+        /* Two columns with equal width */
+
+    }
+
+    .footer-details {
+        /* margin-bottom: 110px; */
+        margin-left: 0;
     }
 
 
