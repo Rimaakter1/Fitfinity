@@ -542,6 +542,13 @@ select {
     border: none;
     display: block;
     width: 100%;
+    color: rgb(230, 228, 228);
+}
+
+select option {
+
+    background: rgba(14, 9, 9, 0.863);
+    color: #efecece2;
 }
 
 ::placeholder,
@@ -555,6 +562,7 @@ select {
     width: 100%;
     margin-bottom: 34px;
 }
+
 
 
 /* meet our team styles  */
