@@ -579,6 +579,7 @@ select {
     width: 100%;
     height: 280px;
     object-fit: cover;
+    filter: brightness(70%);
 }
 
 .image-content {
@@ -587,9 +588,10 @@ select {
 }
 
 .team-image h5 {
-    font-size: 1.7rem;
+    font-size: 1.4rem;
     color: var(--text-primary-color);
     font-weight: 600;
+    margin-bottom: 5px;
 
 }
 
@@ -637,6 +639,7 @@ select {
 
 .price-card img {
     width: 100%;
+    filter: brightness(70%);
 }
 
 .price {
